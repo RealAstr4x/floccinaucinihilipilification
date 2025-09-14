@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(38, 38, 38);
+    color:rgb(255, 255, 255);
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
+
+.copy-email {
+    color: #007bff;          /* κλασικό μπλε λινκ */
+    cursor: pointer;         /* δίνει το χέρι του ποντικιού */
+    text-decoration: underline;
+    font-weight: 500;
+}
+.copy-email:active {
+    opacity: 0.7;            /* μικρό εφέ όταν πατηθεί */
+}
+.discord-link {
+    margin-left: 1rem;
+    color: #007bff;
+    text-decoration: underline;
+    font-weight: 500;
+    cursor: pointer;
+}
